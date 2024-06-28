@@ -1,8 +1,8 @@
 import React from 'react';
-import SignIn from './components/Sign-in/SignIN';
+import SignIn from './Sign-in/SignIn';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
-import './styles.css';
+// import './styles.css';
 
 
 function App() {
