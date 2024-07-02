@@ -1,5 +1,5 @@
 import React from 'react';
-import SignIn from './Sign-in/SignIn';
+import SignIn from './component/sign-in/SignIn1';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 // import './styles.css';
@@ -7,8 +7,10 @@ import { Provider } from 'react-redux';
 
 function App() {
   return (
-    // <div className="App"></div>    // <div className="App"></div>
-    <SignIn />
+    <Provider>
+      <SignIn />
+    </Provider>
+    // <div className="App"></div>    // <div className="App"></div>  ччччёёёёёёёёёё
   );
 }
 
